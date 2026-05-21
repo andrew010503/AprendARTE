@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+cuestionarios-app/node_modules/
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# production builds
+cuestionarios-app/build/
+build/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor and OS files
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# optional delivery/media files
+Otros_Archivos/
